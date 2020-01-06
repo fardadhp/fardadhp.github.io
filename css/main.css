@@ -3136,11 +3136,8 @@ body {
 }
 
 .btn-twitter {
+  background-color: #ffffff;
   color: #55acee;
-}
-
-.btn-twitter:hover, .btn-twitter:focus, .btn-twitter:active {
-  color: #3ea1ec;
 }
 
 .btn-facebook {
@@ -3160,11 +3157,6 @@ body {
 .btn-linkedin {
   background-color: #4875B4;
   color: #ffffff;
-}
-
-.btn-twitter {
-  background-color: #ffffff;
-  color: #4875B4;
 }
 
 .btn-googlescholar {
