@@ -3162,6 +3162,11 @@ body {
   color: #ffffff;
 }
 
+.btn-twitter {
+  background-color: #ffffff;
+  color: #ffffff;
+}
+
 .btn-googlescholar {
   background-image: linear-gradient(blue, red);
   color: #ffffff;
