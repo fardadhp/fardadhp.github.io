@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<html>
+	<div id="main">
+		<div class="grey-box">
+			<header>
+				<h1 id="title">Agent-Based City Evacuation Simulation</h1>
+				<h2>Downtown Iquique, Chile</h2>
+			</header>
+			<div class="white-box">
+				<br>
+				<br>
+				<br>Map of Iquique showing the evacuation zone, evacuation routes, and population distribution:
+				<br>
+				<div id="img-div"><img
+					id="image"
+					class="edit-image" 
+					src="https://github.com/fardadhp/fardadhp.github.io/blob/master/iquique/iquique.png" 	
+				</div>
+				<br>
+				<br>
+				<br>Model with interface:
+				<br>
+				<div id="img-div"><img
+					id="image"
+					class="edit-image" 
+					src="https://github.com/fardadhp/fardadhp.github.io/blob/master/iquique/iquique_interface2000.gif" 	
+				</div>
+				<br>
+				<br>
+				<br>Graphical output:
+				<br>
+				<div id="img-div"><img
+					id="image"
+					class="edit-image" 
+					src="https://github.com/fardadhp/fardadhp.github.io/blob/master/iquique/Iquique_view.gif" 	
+				</div>
+				<br>
+				<br>
+			</div>
+			<div id="tribute-info" class="grey-box2">
+				<h3><strong>Model specs:</strong></h3>
+				<ul>
+					<li>Population: 34000</li>
+					<li>Number of cars: 2000  </li>
+					<li>Platform: NetLogo</li>
+					<li>Input data format: GIS shapefiles</li>
+					<li>Two interactive modules: a pedestrian navigation module and a vehicle navigation module</li>
+					<li>Pedestrian walking algorithm: DistBug <a id="ref" href="https://arxiv.org/ftp/arxiv/papers/1801/1801.09604.pdf" target="_blank" >(reference)</a></li>
+					<li>Collision avoidance mechanism based on maximum patch density</li>
+					<li>Interaction between pedestrians and vehicles: (1) Pedestrians use sidewalks along the streets and interactions occur at intersections; or (2) Pedestrians use the whole width of streets and interact with vehicles while walking.</li>
+					<li>Vehicle driving algorithm: based on critical safe distance</li>
+					<li>Vehicle pathfinding algorithm: the Floyd-Warshall and the Dijkstra's algorithms</li>
+					<li>Ride sharing: Based on car ownership rates, those residents who own cars drive towards the safe zone carrying a maximum of 4 other residents available in the driver's surrounding. Those pedestrians who are initially on the streets walk towards the safe zone.</li>
+					<li>Building evacuation based on predefined rates and a Gaussian distribution</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</html>
